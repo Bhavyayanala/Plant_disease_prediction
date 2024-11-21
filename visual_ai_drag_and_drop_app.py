@@ -13,7 +13,7 @@ from typing import List, Dict
 
 from project_metadata import (
     DEPLOYMENT_ID,
-    API_URL,
+   # API_URL,
     API_KEY,
     DATAROBOT_KEY,
     IMAGE_RESIZED_HEIGHT,
