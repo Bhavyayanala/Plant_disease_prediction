@@ -13,8 +13,8 @@ from typing import List, Dict
 
 from project_metadata import (
     DEPLOYMENT_ID,
-   # API_URL,
-    API_KEY,
+    API_URL,
+    #API_KEY,
     DATAROBOT_KEY,
     IMAGE_RESIZED_HEIGHT,
     IMAGE_RESIZED_WIDTH,
@@ -34,7 +34,7 @@ def make_prediction(data: str) -> pd.DataFrame:
     """
     headers = {
         "Content-Type": "text/plain; charset=UTF-8",
-        "Authorization": "Bearer {}".format(API_KEY),
+       # "Authorization": "Bearer {}".format(API_KEY),
         "DataRobot-Key": DATAROBOT_KEY,
     }
     url = API_URL
